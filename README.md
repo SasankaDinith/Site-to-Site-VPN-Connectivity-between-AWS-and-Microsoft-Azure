@@ -1,19 +1,19 @@
 # 🌐 Cross-Cloud Site-to-Site VPN: AWS ↔ Microsoft Azure
 
-## 📌 Project Overview
+## Project Overview
 
 <p>This project demonstrates the design and implementation of a secure Site-to-Site VPN connection between Amazon Web Services (AWS) and Microsoft Azure, enabling private, bi-directional communication between virtual machines hosted in two different cloud environments.
 
 The solution follows cloud security best practices by hosting workloads in private subnets and eliminating direct public access. </p>
 ---
-## 🎯 Objectives
+## Objectives
 
 - Enable secure private communication between AWS EC2 and Azure Virtual Machines
 - Implement a multi-cloud networking architecture
 - Apply network security controls and identity-based access
 - Gain hands-on experience with VPN gateways and routing
 ---
-## 🏗️ Architecture Overview
+## Architecture Overview
 
 High-Level Design
 
@@ -25,7 +25,7 @@ High-Level Design
 
 ---
 
-## ☁️ AWS Architecture
+## AWS Architecture
 
 - Amazon VPC
   - Public Subnet (NAT Gateway)
@@ -39,7 +39,7 @@ High-Level Design
 
  ---
 
-## ☁️ Azure Architecture
+## Azure Architecture
 
 - Resource Group
 - Virtual Network (VNet)
@@ -50,8 +50,9 @@ High-Level Design
 - Network Security Group (NSG)
   - Traffic filtering (Allow/Deny rules)
 - Azure Virtual Machine in Workload Subnet
+
 ---
-## 🔐 Security Features
+## Security Features
 
 - No public IP assigned to AWS EC2 or Azure VM
 - Private IP communication over IPSec VPN
@@ -60,7 +61,7 @@ High-Level Design
 - NSG rules to restrict Azure network traffic
 ---
 
-## 🔄 Network Flow
+## Network Flow
 
 - AWS EC2 instance (private subnet) initiates traffic
 - Traffic routed through AWS VPN Gateway
@@ -70,7 +71,7 @@ High-Level Design
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 #### AWS
 
@@ -83,12 +84,16 @@ Virtual Network (VNet) | Virtual Network Gateway | Local Network Gateway | Netwo
 
 ---
 
-## 📊 Key Outcomes
+## Key Outcomes
 
 - 100% private cross-cloud communication
 - Zero public IP exposure
 - Secure and reliable multi-cloud connectivity
 - Hands-on experience in hybrid cloud networking
+---
+
+## Licence
+This project is licensed under the MIT License.
 
 
 
