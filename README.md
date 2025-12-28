@@ -1,10 +1,22 @@
 # 🌐 Cross-Cloud Site-to-Site VPN: AWS ↔ Microsoft Azure
 
-## Project Overview
-
-<p>This project demonstrates the design and implementation of a secure Site-to-Site VPN connection between Amazon Web Services (AWS) and Microsoft Azure, enabling private, bi-directional communication between virtual machines hosted in two different cloud environments.
-
+<p>This project demonstrates the design and implementation of a secure Site-to-Site VPN connection between Amazon Web Services (AWS) and Microsoft Azure, enabling private, bi-directional communication between virtual machines hosted in two different cloud environments.  
 The solution follows cloud security best practices by hosting workloads in private subnets and eliminating direct public access. </p>
+
+## 📋 Table of Contents
+- [Objectives](#Objectives)
+- [Architecture Overview](#architecture-Overview)
+- [AWS Architecture](#aws-architecture)
+- [Azure Architecture](#azure-architecture)
+- [Security Features](#security-features)
+- [Network Flow](#network-flow)
+- [Technologies Used](#technologies-used)
+  - [AWS](#aws)
+  - [Azure](#azure)
+- [Key Outcomes](#key-outcomes)
+- [Next steps](#Next-steps)
+- [Licence](#licence)
+
 ---
 ## Objectives
 
