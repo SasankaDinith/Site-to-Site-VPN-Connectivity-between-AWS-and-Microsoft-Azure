@@ -50,3 +50,47 @@ High-Level Design
 - Network Security Group (NSG)
   - Traffic filtering (Allow/Deny rules)
 - Azure Virtual Machine in Workload Subnet
+---
+## 🔐 Security Features
+
+- No public IP assigned to AWS EC2 or Azure VM
+- Private IP communication over IPSec VPN
+- Controlled outbound access via NAT Gateway
+- IAM-based access using AWS Systems Manager
+- NSG rules to restrict Azure network traffic
+---
+
+## 🔄 Network Flow
+
+- AWS EC2 instance (private subnet) initiates traffic
+- Traffic routed through AWS VPN Gateway
+- Encrypted IPSec tunnel established to Azure Virtual Network Gateway
+- Azure VM receives traffic via private IP
+- Bi-directional communication enabled
+
+---
+
+## 🛠️ Technologies Used
+
+#### AWS
+
+Amazon VPC | EC2 | NAT Gateway | VPC | Customer Gateway | VPN Connection | IAM | AWS System Manager 
+
+#### Azure
+
+Virtual Network (VNet) | Virtual Network Gateway | Local Network Gateway | Network Security Group (NSG) | Azure Virtual Machine 
+
+
+---
+
+## 📊 Key Outcomes
+
+- 100% private cross-cloud communication
+- Zero public IP exposure
+- Secure and reliable multi-cloud connectivity
+- Hands-on experience in hybrid cloud networking
+
+
+
+
+
