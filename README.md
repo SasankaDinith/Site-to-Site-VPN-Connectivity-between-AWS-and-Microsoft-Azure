@@ -1,4 +1,4 @@
-# 🌐 Cross-Cloud Site-to-Site VPN: AWS ↔ Microsoft Azure
+# Cross-Cloud Site-to-Site VPN: AWS ↔ Microsoft Azure
 
 <p>This project demonstrates the design and implementation of a secure Site-to-Site VPN connection between Amazon Web Services (AWS) and Microsoft Azure, enabling private, bi-directional communication between virtual machines hosted in two different cloud environments.  
 The solution follows cloud security best practices by hosting workloads in private subnets and eliminating direct public access. </p>
@@ -85,11 +85,11 @@ High-Level Design
 
 ## Technologies Used
 
-#### AWS
+### AWS
 
 Amazon VPC | EC2 | NAT Gateway | VPC | Customer Gateway | VPN Connection | IAM | AWS System Manager 
 
-#### Azure
+### Azure
 
 Virtual Network (VNet) | Virtual Network Gateway | Local Network Gateway | Network Security Group (NSG) | Azure Virtual Machine 
 
